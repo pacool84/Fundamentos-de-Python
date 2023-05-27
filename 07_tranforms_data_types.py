@@ -13,7 +13,7 @@ print(10 + 20)
 
 # No es posible concatenar tipos de datos strings con numeros
 
-# print("Hola, mi edad es " + 12)  # esto marcaria un error
+print("Hola, mi edad es " + 12)
 
 # Tranformando a tipo de dato string utilizando el operador STR
 age = 12

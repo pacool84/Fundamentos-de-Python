@@ -10,7 +10,7 @@ print(x == y)  # Esto es falso por la presicion decimal
 
 # La primera es tranformarlos a Strings
 
-y_str = format(y, ".2g")
+y_str = format(y, ".2g") #se utiliza el formato ".2g", que significa que el número se mostrará con un máximo de 2 dígitos significativos.
 print(y_str)
 print(type(y_str))
 

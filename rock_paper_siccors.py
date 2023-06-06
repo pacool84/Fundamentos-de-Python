@@ -6,8 +6,8 @@ user_option = user_option.lower()
 
 if not user_option in options:
     print("Esa opcion no es valida")
-    
-computer_option = random.choice(options)
+
+computer_option = random.choice(options) #Nos ayuda a elegit un valor al azar dentro de la tupla options
 
 print('user option => ', user_option)
 print('computer option => ', computer_option)

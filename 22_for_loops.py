@@ -57,3 +57,5 @@ people = [
 for person in people:
     print(person['name'])
     print(person['age'])
+
+#La diferencia entre un ciclo WHILE y un FOR es que en el while el rango no esta definido mientras que en el for si
